@@ -87,9 +87,9 @@
 		9C8332731DF73BA90067DC80 /* GitFeed */ = {
 			isa = PBXGroup;
 			children = (
+				F84E70F92B38360400504913 /* View */,
+				F84E70F82B3835F500504913 /* Model */,
 				9C30C3F71E06FC3900C6C510 /* Assets */,
-				9C8332761DF73BA90067DC80 /* ActivityController.swift */,
-				9CE37EC61DF73EE300E4E310 /* Event.swift */,
 				9C8332741DF73BA90067DC80 /* AppDelegate.swift */,
 			);
 			path = GitFeed;
@@ -102,6 +102,22 @@
 				4BCDBF03AC9E2724E26180F6 /* Pods-GitFeed.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F84E70F82B3835F500504913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CE37EC61DF73EE300E4E310 /* Event.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F84E70F92B38360400504913 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C8332761DF73BA90067DC80 /* ActivityController.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
